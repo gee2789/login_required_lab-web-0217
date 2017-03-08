@@ -1,0 +1,7 @@
+<h1> Welcome <%=@user%>!!</h1>
+
+<%= form_tag ({controller: 'sessions', action: 'destroy', method: 'post'}) do %>
+  <input type=submit value='logout'>
+<% end %>
+
+Check out this super secret page below.
